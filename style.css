@@ -18,14 +18,26 @@
 
 #welcome:hover {
     color: purple;
-
+    cursor: default;
 }
-#footer * {
-    width: 3%;
-    height: 5%;
-    position: fixed;
-    bottom: 0;
-    right: 50%;
-    border: 5px solid rgba(190, 207, 30, 0.678);
-    background-color: rgba(19, 113, 150, 0.384);
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 152vh;
+    line-height: 1;
+    border: 3px solid yellowgreen;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.flex-container * {
+    border-radius: 55%;
+    display: sticky;
+    width: 5rem;
+    margin-bottom: auto;
+    margin-top: auto;
 }
