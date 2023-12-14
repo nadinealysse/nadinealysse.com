@@ -1,13 +1,6 @@
 * {
-    background-color: rgba(19, 113, 150, 0.384);
+    background-color: rgba(25, 41, 184, 0.384);
 }  
-
-#title {
-    color: red;
-    text-align: center;
-    font-size: 44px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 #welcome {
     display: block;
@@ -27,16 +20,18 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 152vh;
+    height: 99vh;
     line-height: 1;
-    border: 3px solid yellowgreen;
+    border: 5px solid yellowgreen;
     overflow-y: auto;
     overflow-x: auto;
 }
 
 .flex-container * {
     border-radius: 55%;
+    display: sticky;
     width: 5rem;
     margin-bottom: auto;
     margin-top: auto;
 }
+
