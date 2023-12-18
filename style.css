@@ -30,3 +30,7 @@
     margin-top: auto;
     border: 2px solid yellowgreen;
 }
+
+.flex-container * :hover {
+    background-color: green;
+}
