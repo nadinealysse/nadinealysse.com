@@ -1,2 +1,3 @@
-document.getElementById("welcome").innerHTML = "Welcome";
-console.log("hi");
+function sayHi() {
+    console.log("hi");
+  }
