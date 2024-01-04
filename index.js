@@ -1,3 +1,5 @@
 function sayHi() {
-    console.log("hi");
-  }
+    let greetings = ["Hi", "Hello", "Hey", "Sup", "Wassup"];
+    let greeting = greetings[Math.floor(greetings.length * Math.random())];
+    console.log(greeting);
+    }
