@@ -3,4 +3,5 @@ function sayHi() {
     let greeting = greetings[Math.floor(greetings.length * Math.random())];
     console.log(greeting);
     console.log("hi");
+    console.log("i'm trying to get my itf+ certification");
     }
