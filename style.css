@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 99vh;
+    height: 55vh;
     line-height: 0;
     border: 5px solid yellowgreen;
     overflow-y: auto;
@@ -33,4 +33,17 @@
 
 .flex-container * :hover {
     background-color: green;
+}
+#click {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: lightskyblue;
+    font-size: 2rem;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    margin: auto;
+    background-color: rgba(25, 41, 184, 0.384);
+    border: 3px solid darkseagreen;
 }
