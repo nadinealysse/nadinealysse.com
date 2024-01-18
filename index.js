@@ -1,4 +1,4 @@
 function sayHi() {
     alert("hi");
-    alert("hi!");
+    alert("hi");
 }
