@@ -3,3 +3,4 @@ function sayHi() {
 }
 
 let title = document.getElementById("welcome");
+title.innerHTML = "Welcome";
