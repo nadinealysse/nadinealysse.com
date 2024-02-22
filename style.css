@@ -1,24 +1,31 @@
 *, *::selection {
-    background-color: rgba(25, 41, 184, 0.387);
+    background-color: rgba(25, 41, 184, 0.384);
 }  
-  
+
 #welcome {
     display: block;
     font-weight: bold;
     text-align: center;
     font-size: 300%;
 }
- 
+
 .flex-container {
     display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 33vh;
     line-height: 0;
     border: 5px solid yellowgreen;
-    overflow-y: auto; 
+    overflow-y: auto;
     overflow-x: auto;
 }
 
@@ -34,6 +41,7 @@
 .flex-container * :hover {
     background-color: green;
 }
+
 #click {
     display: flex;
     text-align: center;
@@ -44,6 +52,6 @@
     width: 6rem;
     height: 6rem;
     margin: auto;
-    background-color: rgba(25, 41, 184, 0.387);
+    background-color: rgba(25, 41, 184, 0.384);
     border: 3px solid darkseagreen;
 }
