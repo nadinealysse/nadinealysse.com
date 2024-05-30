@@ -40,7 +40,7 @@
 
 .flex-container * :hover {
     background-color: green;
-}
+} 
 
 #click {
     display: flex;
