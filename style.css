@@ -1,15 +1,15 @@
 *, *::selection { 
     background-color: rgba(25, 41, 184, 0.384);  
-}               
+}              
                         
 #welcome {          
-    display: block;         
-    font-weight: bold;         
-    text-align: center;       
+    display: block;       
+    font-weight: bold;       
+    text-align: center;     
     font-size: 300%; 
 }     
       
-.flex-container { 
+.social-medias {
     display: flex;
     position: fixed;
     left: 0;  
@@ -29,7 +29,7 @@
     overflow-x: auto;
 }
 
-.flex-container * {
+.social-medias * {
     border-radius: 35%;
     width: 7rem;
     height: 6rem;
@@ -38,10 +38,33 @@
     border: 2px solid yellowgreen;
 }
 
-.flex-container * :hover {
+.social-medias * :hover {
     background-color: green;
 } 
 
+.languages {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(39, 156, 177, 0.9);
+    height: 44vh;
+    margin-top: 55px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.languages .language {
+    border-radius: 100%;
+    width: 13rem;
+    height: 11rem;
+    border: 3px solid red;
+
+}
+
+.language:hover {
+    border: 3px dashed blue;
+}
 #click {
     display: flex;
     text-align: center;
