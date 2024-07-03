@@ -44,7 +44,7 @@
 
 .languages {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background-color: rgba(39, 156, 177, 0.9);
     height: 44vh;
@@ -58,12 +58,12 @@
     border-radius: 100%;
     width: 13rem;
     height: 11rem;
-    border: 3px solid red;
+    border: 3px solid rgb(173, 24, 124);
 
 }
 
 .language:hover {
-    border: 3px dashed blue;
+    border: 3px dashed rgb(135, 31, 196);
 }
 #click {
     display: flex;
