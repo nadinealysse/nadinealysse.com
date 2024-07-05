@@ -44,7 +44,6 @@
 
 .languages {
     display: flex;
-    /* position: fixed; */
     width: 100%;
     background-color: rgba(39, 156, 177, 0.9);
     height: 44vh;
