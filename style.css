@@ -1,0 +1,79 @@
+*, *::selection { 
+    background-color: rgba(25, 41, 184, 0.384);  
+}              
+                        
+#welcome {          
+    display: block;       
+    font-weight: bold;       
+    text-align: center;     
+    font-size: 300%; 
+}     
+      
+.social-medias {
+    display: flex;
+    position: fixed;
+    left: 0;  
+    bottom: 0;
+    width: 100%;
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    line-height: 0;
+    border: 5px solid yellowgreen;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.social-medias * {
+    border-radius: 35%;
+    width: 7rem;
+    height: 6rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    border: 2px solid yellowgreen;
+}
+
+.social-medias * :hover {
+    background-color: green;
+} 
+
+.languages {
+    display: flex;
+    width: 100%;
+    background-color: rgba(39, 156, 177, 0.9);
+    height: 44vh;
+    margin-top: 55px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.languages .language {
+    border-radius: 100%;
+    width: 13rem;
+    height: 11rem;
+    border: 3px solid rgb(173, 24, 124);
+
+}
+
+.language:hover {
+    border: 3px solid rgb(135, 31, 196);
+}
+#click {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: lightskyblue;
+    font-size: 2rem;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    margin: auto;
+    background-color: rgba(25, 41, 184, 0.384);
+    border: 3px solid darkseagreen;
+}
