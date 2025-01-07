@@ -18,7 +18,7 @@ header h1 {
 }
 
 main {
-    background-color: #71DB77;
+    background-color: #71db76ce;
     color: #1A1A1A;
 }
 
@@ -80,4 +80,4 @@ footer * {
 
 footer * :hover {
     background-color: #71DB77;
-} 
+}
