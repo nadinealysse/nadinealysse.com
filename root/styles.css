@@ -9,10 +9,12 @@ header {
     display: block;
 }
 
-header h1 {
-    font-size: 2rem;
+h1 {
     color: white;
+    font-size: 3rem;
+
 }
+
 #logo {
    height: 5.5rem;
 }
@@ -22,36 +24,9 @@ main {
     color: #1A1A1A;
 }
 
-main * {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-main {
-    display: flex;
-    width: 100%;
-    height: 44vh;
-    margin-top: 55px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.language {
-    border-radius: 100%;
-    width: 13rem;
-    height: 11rem;
-    border: 3px solid #71DB77;
-
-}
-
-.language:hover {
-    border: 3px solid #1A1A1A;
-}
-
 footer {
     display: flex;
-    /* position: fixed; */
+    position: fixed;
     left: 0;  
     bottom: 0;
     width: 100%;
